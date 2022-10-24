@@ -1,0 +1,31 @@
+﻿static void Main(string[] args)
+        {
+            int sum = 10;
+            //int yesorno;
+            try
+            {
+                Console.WriteLine("Ваш счёт на текущий момент 10 баллов");
+                GameAct(ref sum);
+                While(ref sum);
+                //while (sum > 0)
+                //{
+                //    Console.WriteLine("\n");
+                //    Console.WriteLine("Ваш счет:" + sum);
+                //    Console.WriteLine("Продолжить игру или забрать текущий выигрыш?");
+                //    Console.WriteLine("Любой номер - да");
+                //    Console.WriteLine("0 - нет");
+                //    Console.WriteLine("Любая цифра или 0? Ваш выбор:");
+                //    yesorno = int.Parse(Console.ReadLine());
+                //    if (yesorno == 0)
+                //        break;
+                //    Console.WriteLine("\n");
+                //    GameAct(ref sum);
+                //}
+                //Console.WriteLine("Игра окончена! Ваш счёт " + sum);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("An exception was thrown: {0}", e.Message);
+            }
+
+        }
